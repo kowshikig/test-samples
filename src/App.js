@@ -18,7 +18,7 @@ function App() {
     <div className="App">
       <div className='title'>
       <h1 >Carousel</h1>
-      <h2>Swipe Right</h2>
+      <h2>Swipe Left</h2>
       </div>
       <motion.div ref = {carouosel} className='carousel' whileTap={{cursor:"grabbing"}}>
         <motion.div 
